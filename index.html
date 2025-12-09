@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#events">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#membership">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#footer">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title" id="header__content">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía tus conocimientos sobre desarrollo, o simplemente ven a
+              trabajar o estudiar con nosotros. ¡Este es un lugar genial para
+              estudiantes!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="staff" id="staff">
+          <h2 class="staff__title">Los preferidos de nuestros lectores</h2>
+          <p class="staff__subtitle">Que nuestros lectores y lectoras aman</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El Principito</h3>
+                <p class="card__text">
+                  Una fábula poética sobre la inocencia, la amistad y la esencia
+                  de lo humano. A través del encuentro entre un piloto perdido
+                  en el desierto y un pequeño príncipe venido de otro planeta,
+                  el relato nos recuerda que “lo esencial es invisible a los
+                  ojos”. Cada planeta y personaje representa una faceta de la
+                  sociedad y de la vida adulta, cuestionando lo que realmente
+                  importa.
+                </p>
+                <p class="card__footer">Antoine de Saint-Exupéry</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El Caballero de la armadura oxidada</h3>
+                <p class="card__text">
+                  Un cuento alegórico sobre el autoconocimiento y la
+                  autenticidad. El protagonista, un caballero atrapado en su
+                  armadura, emprende un viaje espiritual para liberarse de ella.
+                  A lo largo del camino —guiado por Merlín y otros personajes—
+                  descubre que la armadura simboliza sus miedos, su ego y sus
+                  máscaras. Solo enfrentando su verdad logra ser libre.
+                </p>
+                <p class="card__footer">Robert Fisher</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title" id="clean-code">
+                  El Retorno del Caballero de la armadura oxidada
+                </h3>
+                <p class="card__text">
+                  La secuela profundiza en la sabiduría adquirida. El caballero,
+                  ahora en paz consigo mismo, vuelve al mundo para compartir lo
+                  aprendido, pero descubre que su crecimiento continúa. El
+                  relato aborda temas como el perdón, la empatía y la
+                  importancia de no aferrarse al pasado, mostrando que el camino
+                  del autoconocimiento nunca termina.
+                </p>
+                <p class="card__footer">Robert Fisher</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Juan Salvador Gaviota</h3>
+                <p class="card__text">
+                  Una historia breve sobre una gaviota que desafía las normas de
+                  su bandada porque sueña con volar más alto y más libre. Es un
+                  homenaje a la individualidad, la perfección personal y la
+                  búsqueda del sentido propio.
+                </p>
+                <p class="card__footer">Richard Bach</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="events" id="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              En honor de Joan Feynman: mujeres en la astrofísica
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">Lunes 12 de enero</p>
+              </div>
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">
+                  Sala de conferencias y virtual de la biblioteca Triple Peaks
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, en el que celebramos el nombre de nuestra
+              biblioteca, nuestra invitada nos llevará a través de un viaje para
+              conocer a algunas de las mujeres investigadoras más importantes en
+              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
+              que este campo está principalmente dominado por hombres, pero
+              nuestra conferencia busca cambiar esa noción y probar que no ha
+              sido así desde, al menos, el siglo XVII.
+            </p>
+            <a href="#" class="events__more">Más eventos &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="./images/cafe.png"
+              alt="Ilustración 'Café en la biblioteca'"
+              class="events__image"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Ilustración de Joan Feynman"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Ilustración de Margaret Burbidge"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Ilustración de Nancy Grace Roman"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Nancy Grace Roman</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Ilustración de Heidi Hammel"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Heidi Hammel</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Kathy Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Ilustración de Kathy Tarter"
+                class="person__image person__image_size_s"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="membership" id="membership">
+          <h2 class="membership__title">
+            ¡Convertirse en miembro es muy fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Paso 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Completa el formulario de afiliación en línea o en persona.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Ven y recoge tu credencial de la biblioteca en la recepción.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Firma el envés de la tarjeta.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Paso 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                ¡Disfruta de los increíbles beneficios de nuestra membresía!
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer" id="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo.svg"
+              alt="Logotipo de la Biblioteca Triple Peaks"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h4 class="footer__column-heading">Horario de apertura</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                Lunes a viernes: 9 a.m. — 8 p.m.
+              </li>
+              <li class="footer__list-item">
+                Sábados y domingos: 10 a.m. — 6 p.m.
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h4 class="footer__column-heading">Redes sociales</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Atsushiai Hiroshi</p>
+      </footer>
+    </div>
+  </body>
+</html>
